@@ -1,0 +1,235 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-text font-family="sans-serif" color="#000000" />
+      <mj-class name="content-bg" background-color="#FFFFFF" />
+      <mj-class name="btn-blue" href="https://www.google.com" align="left" font-size="12px" font-weight="300" background-color="#1A73E8" padding-top="35px" padding-bottom="30px" inner-padding="15px" />
+      <mj-class name="div" border-color="#F1F3F4" border-width="1px" padding-right="30px" />
+      <mj-class name="main-text" font-size="13px" color="#000000" line-height="22px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .green-text {
+        color: #4EB368 !important;
+      }
+
+      .link-text {
+        color: #3D89EC !important;
+      }
+
+      .blue-text {
+        text-decoration: none;
+      }
+    </mj-style>
+    <mj-style>
+      @media only screen and (max-width: 599px) {
+        .google-logo {
+          padding-left: 23px !important;
+        }
+
+        .google-icons {
+          padding-right: 17px !important;
+        }
+
+        .header-text div {
+          font-size: 22px !important;
+        }
+
+        .green-logo {
+          display: none;
+        }
+
+        .settings-icon {
+          display: none;
+        }
+
+        .settings-text-setup {
+          padding-left: 38px !important;
+          padding-bottom: 20px !important;
+
+        }
+
+        .settings-text-help div {
+          padding-left: 38px;
+          padding-bottom: 20px !important;
+
+        }
+
+        .settings-text-bill div {
+          padding-left: 38px;
+
+        }
+
+        .footer div {
+          padding-right: 20px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#FFFFFF">
+    <!-- Start Of Logo Section -->
+    <mj-wrapper padding="0px 30px 40px 30px" background-color="#F8F9FA">
+      <mj-section padding-top="25px" padding-bottom="12px">
+        <mj-group>
+          <mj-column>
+            <mj-image css-class="google-logo" src="https://i.postimg.cc/9M6JFBtn/logo.png" alt="G Suite logo" width="100px" align="left" padding-left="45px" />
+          </mj-column>
+          <mj-column>
+            <mj-image css-class="google-icons" src="https://i.postimg.cc/255HHyS2/icons.png" alt="google icons" width="100px" align="right" padding-right="45px" padding-top="8px" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- End Of Logo Section -->
+
+      <!-- Start Of Thank You Section -->
+      <mj-section mj-class="content-bg" padding="30px 0px 20px 35px">
+        <mj-column>
+          <mj-text css-class="header-text" align="left" font-size="22px" line-height="32px">
+            Thanks for providing your G Suite <span class="green-text">billing info.</span>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image css-class="green-logo" src="https://i.postimg.cc/PqFS0HLh/green-logo.png" alt="green logo with white house" width="80px" align="right" />
+        </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section mj-class="content-bg" padding-left="35px">
+        <mj-group>
+          <mj-column>
+            <mj-text align="left" font-size="14px">
+              You won't be charged until your free trial ends.
+            </mj-text>
+            <mj-button mj-class="btn-blue">
+              View your billing info
+            </mj-button>
+            <mj-divider mj-class="div" />
+          </mj-column>
+      </mj-section>
+      <!-- End Of Thank You Section -->
+
+      <!-- Start Of Main Section -->
+      <mj-section mj-class="content-bg" padding-left="35px">
+        <mj-column padding-top="30px">
+          <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding-bottom="25px">
+            Hi there,
+          </mj-text>
+          <mj-text mj-class="main-text">
+            Thank you for adding your billing information for your G suite subscription.
+          </mj-text>
+          <mj-text mj-class="main-text" padding-top="18px">
+            Here's a summary of your G suite account.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- End Of Main Section -->
+
+      <!-- Start Of Info Section -->
+      <mj-section mj-class="content-bg" padding-top="30px" padding-bottom="30px" padding-left="35px" padding-right="35px">
+        <mj-column background-color="#F1F3F4">
+          <mj-text color="#000000" line-height="32px" padding-left="22px" padding-top="15px">
+            Domain:
+          </mj-text>
+          <mj-text color="#000000" font-weight="600" padding-left="22px" padding-bottom="10px">
+            NickMagliano.fyi
+          </mj-text>
+          <mj-text color="#000000" line-height="32px" padding-left="22px">
+            Trial Ends:
+          </mj-text>
+          <mj-text color="#000000" font-weight="600" padding-left="22px" padding-bottom="10px">
+            December 24, 2023
+          </mj-text>
+          <mj-text color="#000000" padding-left="22px" line-height="32px">
+            First billing date:
+          </mj-text>
+          <mj-text color="#000000" font-weight="600" padding-left="22px" padding-bottom="25px">
+            January 1, 2024
+          </mj-text>
+        </mj-column>
+
+      </mj-section>
+
+      <mj-section mj-class="content-bg">
+        <mj-column>
+          <mj-text mj-class="main-text" padding-left="35px" line-height="22px">
+            To view your billing information, sign in to your <a class="link-text" href="https://www.google.com">Google Admin Console</a>
+            and click billing
+          </mj-text>
+          <mj-button mj-class="btn-blue" padding-left="35px">
+            View your billing info
+          </mj-button>
+          <mj-text mj-class="main-text" padding-top="10px" padding-left="35px">
+            See you online,
+          </mj-text>
+          <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding-top="10px" padding-bottom="35px" padding-left="35px">
+            The G Suite Team
+          </mj-text>
+          <mj-divider mj-class="div" padding-left="35px" />
+        </mj-column>
+      </mj-section>
+      <!-- End Of Info Section -->
+
+      <!-- Start Of Icon Section -->
+      <mj-section mj-class="content-bg" padding-top="10px">
+
+        <mj-column>
+          <mj-image css-class="settings-icon" src="https://i.postimg.cc/y8spZv4q/gear.png" alt="gear icon" width="35px" align="left" padding-left="29px" />
+        </mj-column>
+        <mj-column padding-top="15px">
+          <mj-text css-class="settings-text-setup" align="left">
+            <a class="blue-text" href="https://www.google.com">Finish Setup</a>
+          </mj-text>
+        </mj-column>
+
+      </mj-section>
+      <mj-section mj-class="content-bg">
+        <mj-column>
+          <mj-image css-class="settings-icon" src="https://i.postimg.cc/xCJ62ZHm/phone.png" alt="gear icon" width="30px" align="left" padding-left="33px" />
+        </mj-column>
+        <mj-column padding-top="15px">
+          <mj-text css-class="settings-text-help" align="left">
+            <a class="blue-text" href="https://www.google.com">Admin help</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="content-bg" padding-bottom="25px">
+        <mj-column>
+          <mj-image css-class="settings-icon" src="https://i.postimg.cc/tChmJ8ct/credit-card.png" alt="gear icon" width="33px" align="left" padding-left="33px" />
+        </mj-column>
+        <mj-column padding-top="15px">
+          <mj-text css-class="settings-text-bill" align="left">
+            <a class="blue-text" href="https://www.google.com">Billings and payments</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- End Of Icon Section -->
+
+    <!-- Start Of Footer -->
+    <mj-section background-color="#F8F9FA">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/Cx7PHkSR/google-cloud.png" alt="google cloud logo" align="left" width="125px" padding-bottom="5px" padding-left="65px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F8F9FA" padding-left="70px" padding-bottom="25px">
+      <mj-group>
+        <mj-column css-class="footer">
+          <mj-text font-size="10px" color="#9AA0A6" line-height="22px" align="left">
+            Google LLC 1600 Amphitheatre Parkway, Mountain View CA 94043
+          </mj-text>
+          <mj-text font-size="10px" color="#9AA0A6" line-height="22px" align="left" padding-top="5px">
+            You have received this email because it contains important information about your
+            G Suite free trial.
+          </mj-text>
+          <mj-image src="https://i.postimg.cc/MZB93hz2/social.png" alt="social icons" width="160px" align="left" padding-top="10px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Of Footer -->
+  </mj-body>
+</mjml>
+
+<!--<mj-wrapper padding="12px 25px 20px 25px" background-color="#F8F9FA" -->
